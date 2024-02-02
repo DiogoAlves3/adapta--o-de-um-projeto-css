@@ -1,0 +1,76 @@
+*{
+    font-family: "Single Day", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: inline-block;
+    border: 1px solid gray;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+a{
+    display: inline-block;
+    margin-left: 95px;
+    font-size: 25px;
+    width: 168px;
+    position: relative;
+    bottom: 30px;
+}
+
+a:visited{
+    color: gray;
+}
+
+
+
+.logo{
+    position: relative;
+    left: 30px;
+    height: 90px;
+    top: 5px;
+}
+
+.container-left{
+    display: inline-block;
+    width: 50%;
+    position: relative;
+    left: 10%;
+    bottom: 50px;
+}
+
+.container-right{
+    display: inline-block;
+    border: 1px solid rgb(187, 185, 185);
+    margin-left: 100px;
+    padding: 30px;
+    margin-top: 10px;
+
+}
+
+.central{
+    display: inline-block;
+    box-sizing: border-box;
+    margin-left: 200px;
+    margin-top: 60px;
+}
+
+h1{
+    font-size: 45px;
+}
+
+p{
+    margin: 10px;
+}
+
+button{
+    margin-top: 10px;
+    background: rgb(206, 205, 205);
+    padding: 10px;
+    border-radius: 50px;
+}
